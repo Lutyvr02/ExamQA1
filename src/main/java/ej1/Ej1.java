@@ -9,11 +9,11 @@ public class Ej1 {
 
         }
         if (descuento <= SalarioBasico){
-            return SalarioBasico;
+            return descuento;
         } else if (descuento <= 2*SalarioBasico) {
-            return SalarioBasico - (SalarioBasico * 0.05);
+            return descuento - (descuento * 0.05);
         }else {
-            return SalarioBasico - (SalarioBasico * 0.15);
+            return descuento - (descuento * 0.15);
         }
     }
 
