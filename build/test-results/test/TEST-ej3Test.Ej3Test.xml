@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ej3Test.Ej3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-10-04T23:29:21" hostname="LAPTOP-VIE9F9R5" time="0.141">
+  <properties/>
+  <testcase name="[1] La Paz, 2, 5, 29, 2023" classname="ej3Test.Ej3Test" time="0.141"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
