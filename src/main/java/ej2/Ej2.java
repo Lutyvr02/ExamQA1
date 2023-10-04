@@ -36,7 +36,7 @@ public class Ej2 {
     public String reservarVuelo(String destino, int cantidad,int mes, int dia, int gestion){
         if (res.existenPasajeros(destino, cantidad)){
             return "el dia: "+ getDay(dia,mes,gestion)+ " " + dia + " " + convertirMes(mes)+" "+ gestion +
-                    " existen " + cantidad + " pasajeros para "+ destino;
+                    " existen " + cantidad + " pasajes para "+ destino;
         } else {
             return "no existen suficientes pasajes para: " + destino;
         }
